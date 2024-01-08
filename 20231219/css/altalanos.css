@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float:left;
+    position: relative;
+}
+
+a{
+    float:left;
+    padding: 5px;
+}
