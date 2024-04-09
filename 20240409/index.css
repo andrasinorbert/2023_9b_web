@@ -1,0 +1,21 @@
+img[width]{
+    border: 6px solid green;
+}
+img[width="200px"]{
+    border: 6px solid blue;
+}
+img[title~="cica"]{
+    border: 6px solid pink;
+}
+img[alt|="cica"]{
+    border: 6px solid red;
+}
+img[height^="1"]{
+    border: 6px solid yellow;
+}
+img[width$="px"]{
+    border: 6px solid black;
+}
+img[title*="cicc"]{
+    border: 6px solid purple;
+}
