@@ -1,0 +1,42 @@
+/* dinamikus látszólagos osztályok */
+a:link{
+    /* alapszíne */
+    color:red;
+}
+a:visited{
+    /* már meglátogatott link színe */
+    color:green;
+}
+img:hover{
+    /* ha fölé viszem az egeret */
+    width: 110%;
+}
+
+/* Strukturális látszólagos osztályok */
+li:first-child{
+    background-color: green;
+}
+li:last-child{
+    background-color: blue;
+}
+li:nth-child(3){
+    background-color: pink;
+}
+li:nth-child(2n){
+    color:blueviolet;
+}
+li:nth-child(2n+1){
+    color:red;
+}
+/* látszólagos elemek - nem lesz a dolgozatban*/
+p:first-letter{
+    font-size: 110%;
+    color:green;
+}
+p::first-line{
+    background-color: pink;
+}
+p::selection{
+    background-color: yellow;
+    color:pink;
+}
